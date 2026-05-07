@@ -164,7 +164,7 @@ int main() {
     inisialisasi();
     int p;
     do {
-        cout << "\n[ HOTEL VETERAN YOGYAKARTA ]\n1. Pemesanan\n2. Checkout\n3. Data & Riwayat\n4. Exit\nPilih: "; cin >> p;
+        cout << "\n[ HOTEL VETERAN YOGYAKARTA (Kelompok 3 IF-C)]\n1. Pemesanan\n2. Checkout\n3. Data & Riwayat\n4. Exit\nPilih: "; cin >> p;
         if(p==1) menuPemesanan(); else if(p==2) menuCheckout(); else if(p==3) menuDataRiwayat();
     } while(p!=4);
     return 0;
